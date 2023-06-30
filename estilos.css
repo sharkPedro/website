@@ -1,0 +1,228 @@
+a* {
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url(images/fundo\ sharkmec.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 10px solid transparent;
+   
+
+}
+/*  */
+.text-center{
+    text-align: center;
+}
+
+.url{
+    text-align: center;
+}
+
+
+.margin-top-40{
+    margin-top: 40px;
+}
+
+.container-cabecalho{
+    text-align: center;
+    padding: 0px;
+    background-image: url(images/logo-normal-200.png);
+    background-repeat: no-repeat;
+    background-color: rgb(108, 151, 150);
+    margin-top: 5px;
+}
+
+.container-cabecalho h3{
+font-weight: 600;
+font-size: 4em;
+color: darkgrey;
+padding: 10px;
+text-align: center;
+border-radius: 10px;
+
+}
+
+.container-navegacao{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: gray;
+}
+
+.container-navegacao a{
+    font-size: 1.5em;
+    margin: 0px 40px;
+    text-decoration: none;
+    color: rgb(35, 236, 230);  
+
+}
+.container-navegacao a:hover{
+    color: #da0d0d;
+    
+}
+h1{
+    color:gold;
+    font:bold;
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.135); 
+    border-radius: 20px;
+    margin: 10px 20px;        
+        
+}
+
+    
+.container-quem-somos{
+    overflow: auto;
+    padding: 40px;
+
+}
+
+.container-quem-somos .servico{
+    overflow: auto;
+    background-color: rgba(17, 122, 143, 0.925);
+    color:white;
+    float: center;
+    margin: 20px auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.container-quem-somos .servico-texto-realce{
+
+    color:rgba(0, 255, 255, 0.893);
+    font-weight:bold;
+}
+
+.container-servicos-contatos{
+    color:black;
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+   
+}
+
+.container-servicos-contatos .botoes-servicos-contatos{
+    padding: 20px;
+    text-align: center; 
+    background-color: rgb(108, 151, 150),;
+}
+
+.botoes-servicos-contatos a{
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color:#da0d0d;
+    padding: 20px 40px;
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.botoes-servicos-contatos a:hover{
+    
+    color:darkgreen;
+    background-color: white;
+    background-color:aqua;
+    border-style:double;
+    }
+
+.container-servicos{
+    font-size: 1.1em;
+    padding: 10px;
+    overflow: auto;
+}
+
+.container-servicos h1{
+    font-size:3em;
+    color: gold;
+    margin-bottom: 20px; 
+    text-align: center;
+    background-color: rgba(173, 168, 168, 0.135);
+}
+
+.container-servicos h3{
+    color:rgba(0, 255, 255, 0.893);
+    font-size:20px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgba(173, 168, 168, 0.135);
+    border-radius: 20px;
+}
+/* Artigo dos serviços v */
+.container-servicos article{
+    width: 50%;
+    margin:auto;
+    float:center;
+    border-radius: 20px;
+    padding: 10px;
+    margin :20px auto;
+    background-color: rgba(17, 122, 143, 0.925); 
+    
+}
+/* Texto dos serviços v */
+.container-servicos li {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: white;
+    font-size: bold;
+    text-align: center;
+    font-size:larger;
+         
+}
+
+/* caixa Contatos v */
+.container-contatos{
+    color: black,;
+    padding: 10px;
+
+}
+/* titulo Contatos v*/
+.container-contatos h1{
+    font-size: 3em;
+    color: gold;
+    margin-bottom: 20px;
+}
+/* estamos disponiveis...v */
+.container-contatos h3{
+    font-size: 1.5em;
+    font-weight: 100;
+    width:40%;
+    margin: auto;
+    color:black;
+    margin-bottom: 20px;
+    border: 1px solid red;
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 60px;
+}
+/* numero contatos V*/
+.container-contatos .contatos{
+    display:block;
+    font-size: 2em;
+    text-decoration:none;
+    margin-bottom: 20px;
+    color: gold;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: aqua;
+    background-color: rgb(108, 151, 150);
+  
+}
+
+
